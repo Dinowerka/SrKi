@@ -1,47 +1,47 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 int main() {
 	setlocale(0, "");
-	cout << "Âûáåğèòå îïåğàöèş" << endl;
-	cout << "[-]Âû÷åñòü" << endl;
-	cout << "[+]Ñëîæèòü" << endl;
-	cout << "[*]Óìíîæèòü" << endl;
-	cout << "[/]Äåëèòü" << endl;
-	cout << "[%]Äåëèòü ñ îñòàòêîì" << endl;
+	cout << "Ğ’Ñ‹Ğ±ĞµÑ€Ğ¸Ñ‚Ğµ Ğ¾Ğ¿ĞµÑ€Ğ°Ñ†Ğ¸Ñ" << endl;
+	cout << "[-]Ğ’Ñ‹Ñ‡ĞµÑÑ‚ÑŒ" << endl;
+	cout << "[+]Ğ¡Ğ»Ğ¾Ğ¶Ğ¸Ñ‚ÑŒ" << endl;
+	cout << "[*]Ğ£Ğ¼Ğ½Ğ¾Ğ¶Ğ¸Ñ‚ÑŒ" << endl;
+	cout << "[/]Ğ”ĞµĞ»Ğ¸Ñ‚ÑŒ" << endl;
+	cout << "[%]Ğ”ĞµĞ»Ğ¸Ñ‚ÑŒ Ñ Ğ¾ÑÑ‚Ğ°Ñ‚ĞºĞ¾Ğ¼" << endl;
 	char menu;
 	cin >> menu;
 	int number1;
 	int number2;
 	if (menu == '-') {
-		cout << "Ââåäèòå ïåğâîå ÷èñëî" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> number1;
-		cout << "Ââåäèòå âòîğîå ÷èñëî" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> number2;
 		cout << number1 << '-' << number2 << "=" << number1 - number2;
 	}
 	else if (menu == '+') {
-		cout << "Ââåäèòå ïåğâîå ÷èñëî" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> number1;
-		cout << "Ââåäèòå âòîğîå ÷èñëî" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> number2;
 		cout << number1 << '+' << number2 << "=" << number1 + number2;
 }
 	else if (menu == '*') {
-		cout << "Ââåäèòå ïåğâîå ÷èñëî" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> number1;
-		cout << "Ââåäèòå âòîğîå ÷èñëî" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> number2;
 		cout << number1 << '*' << number2 << "=" << number1 * number2;
 	}
 
 	else if (menu == '/')
 	{
-			cout << "Ââåäèòå ïåğâîå ÷èñëî" << endl;
+			cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 			cin >> number1;
-			cout << "Ââåäèòå âòîğîå ÷èñëî" << endl;
+			cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 			cin >> number2;
 			if (number2 == 0) {
-				cout << "Äåëèòü íà íîëü íåëüçÿ";
+				cout << "Ğ”ĞµĞ»Ğ¸Ñ‚ÑŒ Ğ½Ğ° Ğ½Ğ¾Ğ»ÑŒ Ğ½ĞµĞ»ÑŒĞ·Ñ";
 			} else {
 				cout << number1 << '/' << number2 << "=" << number1 / number2;
 			}
@@ -49,14 +49,14 @@ int main() {
 	}
 
 	else if (menu == '%') {
-		cout << "Ââåäèòå ïåğâîå ÷èñëî" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿ĞµÑ€Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> number1;
-		cout << "Ââåäèòå âòîğîå ÷èñëî" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> number2;
 		cout << number1 << '%' << number2 << "=" << number1 % number2;
 	}
 	else {
-		cout << "Ââåäåíî íåïğàâèëüíîå çíà÷åíèå" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´ĞµĞ½Ğ¾ Ğ½ĞµĞ¿Ñ€Ğ°Ğ²Ğ¸Ğ»ÑŒĞ½Ğ¾Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ" << endl;
 	}
 
 return 0;
