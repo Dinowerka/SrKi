@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 void ClearConsole() {
 	system("cls");
@@ -10,22 +10,22 @@ void ChangeConsoleText() {
 	system("color 9");
 }
 void WriteSizeOfInt() {
-	cout << "Ðàçìåð òèïà äàííûõ int - " << sizeof(int)<<" áàéò\n";
+	cout << "Ð Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ð¸Ð¿Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ… int - " << sizeof(int)<<" Ð±Ð°Ð¹Ñ‚\n";
 }
 void WriteSizeOfChar() {
-	cout << "Ðàçìåð òèïà äàííûõ char - " << sizeof(char) << " áàéò\n";
+	cout << "Ð Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ð¸Ð¿Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ… char - " << sizeof(char) << " Ð±Ð°Ð¹Ñ‚\n";
 }
 void WriteSizeOfDouble() {
-	cout << "Ðàçìåð òèïà äàííûõ double - " << sizeof(double) << " áàéò\n";
+	cout << "Ð Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ð¸Ð¿Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ… double - " << sizeof(double) << " Ð±Ð°Ð¹Ñ‚\n";
 }
 void WriteSizeOfFloat() {
-	cout << "Ðàçìåð òèïà äàííûõ float - " << sizeof(float) << " áàéò\n";
+	cout << "Ð Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ð¸Ð¿Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ… float - " << sizeof(float) << " Ð±Ð°Ð¹Ñ‚\n";
 }
 void WriteSizeOfBool() {
-	cout << "Ðàçìåð òèïà äàííûõ bool - " << sizeof(bool) << " áàéò\n\n";
+	cout << "Ð Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ð¸Ð¿Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ… bool - " << sizeof(bool) << " Ð±Ð°Ð¹Ñ‚\n\n";
 }
 void WriteHello() {
-	cout << "Ïðèâåò ÿ ôóíêöèÿ\n\n";
+	cout << "ÐŸÑ€Ð¸Ð²ÐµÑ‚ Ñ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ñ\n\n";
 }
 void PrintSquare5x5() {
 	for (int i = 0; i < 5; i++)

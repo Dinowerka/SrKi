@@ -1,9 +1,9 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 int main() {
 	setlocale(0, "");
 	int menu;
-	cout << "[0]INT\n[1]SHORT\n[2]LONG\n[3]FLOAT\n[4]DOUBLE\n[5]CHAR\n[6]BOOL\n[7]STRING\nÂûáåðèòå ìàññèâ:";
+	cout << "[0]INT\n[1]SHORT\n[2]LONG\n[3]FLOAT\n[4]DOUBLE\n[5]CHAR\n[6]BOOL\n[7]STRING\nÐ’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¼Ð°ÑÑÐ¸Ð²:";
 	cin >> menu;
 	system("cls");
 
@@ -73,7 +73,7 @@ int main() {
 	}
 	else if (menu)
 	{
-		cout << "Âûáåðèòå ïðàâèëüíîå çíà÷åíèå";
+		cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ";
 
 	}
 	return 8;

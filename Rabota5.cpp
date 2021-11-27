@@ -1,135 +1,135 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 int main() {
 	setlocale(0, "");
 	cout << "Welcome to the translator\n\n\n";
-	cout << "Âûáåðèòå äåéñòâèå:" << endl;
-	cout << "[1]Ðóññêèå ñëîâà" << endl;
-	cout << "[2]Àíãëèéñêèå ñëîâà" << endl;
-	cout << "[3]Âûéòè" << endl;
+	cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ðµ:" << endl;
+	cout << "[1]Ð ÑƒÑÑÐºÐ¸Ðµ ÑÐ»Ð¾Ð²Ð°" << endl;
+	cout << "[2]ÐÐ½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ðµ ÑÐ»Ð¾Ð²Ð°" << endl;
+	cout << "[3]Ð’Ñ‹Ð¹Ñ‚Ð¸" << endl;
 	int menu;
 	int number;
 	cin >> menu;
 	system("cls");
 	switch (menu) {
 	case 1:
-		cout << "Âûáåðèòå íîìåð ñëîâà:\n";
-		cout << "[1]Åäà\n[2]Ëÿãóøêà\n[3]Âîëê\n[4]Ìàøèíà\n[5]Êðîâàòü\n[6]Ìå÷\n[7]Êíèãà\n[8]Ëåñ\n[9]Òîïëèâî\n[10]Äîì\n[11]Îêíî\n[12]Çàõâàòûâàþùèé\n[13]Ðó÷êà\n[14]Êàðàíäàø\n[15]Ðåêà\n";
+		cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ ÑÐ»Ð¾Ð²Ð°:\n";
+		cout << "[1]Ð•Ð´Ð°\n[2]Ð›ÑÐ³ÑƒÑˆÐºÐ°\n[3]Ð’Ð¾Ð»Ðº\n[4]ÐœÐ°ÑˆÐ¸Ð½Ð°\n[5]ÐšÑ€Ð¾Ð²Ð°Ñ‚ÑŒ\n[6]ÐœÐµÑ‡\n[7]ÐšÐ½Ð¸Ð³Ð°\n[8]Ð›ÐµÑ\n[9]Ð¢Ð¾Ð¿Ð»Ð¸Ð²Ð¾\n[10]Ð”Ð¾Ð¼\n[11]ÐžÐºÐ½Ð¾\n[12]Ð—Ð°Ñ…Ð²Ð°Ñ‚Ñ‹Ð²Ð°ÑŽÑ‰Ð¸Ð¹\n[13]Ð ÑƒÑ‡ÐºÐ°\n[14]ÐšÐ°Ñ€Ð°Ð½Ð´Ð°Ñˆ\n[15]Ð ÐµÐºÐ°\n";
 		cin >> number;
 		system("cls");
 		switch (number) {
 		case 1:
-			cout << "Åäà-food";
+			cout << "Ð•Ð´Ð°-food";
 			break;
 		case 2:
-			cout << "Ëÿãóøêà-frog";
+			cout << "Ð›ÑÐ³ÑƒÑˆÐºÐ°-frog";
 			break;
 		case 3:
-			cout << "Âîëê-wolf";
+			cout << "Ð’Ð¾Ð»Ðº-wolf";
 			break;
 		case 4:
-			cout << "Ìàøèíà-car";
+			cout << "ÐœÐ°ÑˆÐ¸Ð½Ð°-car";
 			break;
 		case 5:
-			cout << "Êðîâàòü-bed";
+			cout << "ÐšÑ€Ð¾Ð²Ð°Ñ‚ÑŒ-bed";
 			break;
 		case 6:
-			cout << "Ìå÷-sword";
+			cout << "ÐœÐµÑ‡-sword";
 			break;
 		case 7:
-			cout << "Êíèãà-book";
+			cout << "ÐšÐ½Ð¸Ð³Ð°-book";
 			break;
 		case 8:
-			cout << "Ëåñ-forest";
+			cout << "Ð›ÐµÑ-forest";
 			break;
 		case 9:
-			cout << "Òîïëèâî-fuel";
+			cout << "Ð¢Ð¾Ð¿Ð»Ð¸Ð²Ð¾-fuel";
 			break;
 		case 10:
-			cout << "Äîì-home";
+			cout << "Ð”Ð¾Ð¼-home";
 			break;
 		case 11:
-			cout << "Îêíî-window";
+			cout << "ÐžÐºÐ½Ð¾-window";
 			break;
 		case 12:
-			cout << "Çàõâàòûâàþùèé-Breathtaking";
+			cout << "Ð—Ð°Ñ…Ð²Ð°Ñ‚Ñ‹Ð²Ð°ÑŽÑ‰Ð¸Ð¹-Breathtaking";
 			break;
 		case 13:
-			cout << "Ðó÷êà-pen";
+			cout << "Ð ÑƒÑ‡ÐºÐ°-pen";
 			break;
 		case 14:
-			cout << "Êàðàíäàø-pencil";
+			cout << "ÐšÐ°Ñ€Ð°Ð½Ð´Ð°Ñˆ-pencil";
 			break;
 		case 15:
-			cout << "Ðåêà-river";
+			cout << "Ð ÐµÐºÐ°-river";
 			break;
 		default:
-			cout << "Ââåäåí íåïðàâèëüíûé ñèìâîë!";
+			cout << "Ð’Ð²ÐµÐ´ÐµÐ½ Ð½ÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð»!";
 			break;
 		}
 		break;
 	case 2:
-		cout << "Âûáåðèòå íîìåð ñëîâà:\n";
+		cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ ÑÐ»Ð¾Ð²Ð°:\n";
 		cout << "[1]Food\n[2]Frog\n[3]Wolf\n[4]Car\n[5]Bed\n[6]Sword\n[7]Book\n[8]Forest\n[9]Fuel\n[10]Home\n[11]Window\n[12]Breathtaking\n[13]Pen\n[14]Pencil\n[15]River\n";
 		cin >> number;
 		system("cls");
 		switch (number) {
 		case 1:
-			cout << "Food-åäà";
+			cout << "Food-ÐµÐ´Ð°";
 			break;
 		case 2:
-			cout << "Frog-ëÿãóøêà";
+			cout << "Frog-Ð»ÑÐ³ÑƒÑˆÐºÐ°";
 			break;
 		case 3:
-			cout << "Wolf-âîëê";
+			cout << "Wolf-Ð²Ð¾Ð»Ðº";
 			break;
 		case 4:
-			cout << "Car-ìàøèíà";
+			cout << "Car-Ð¼Ð°ÑˆÐ¸Ð½Ð°";
 			break;
 		case 5:
-			cout << "Bed-êðîâàòü";
+			cout << "Bed-ÐºÑ€Ð¾Ð²Ð°Ñ‚ÑŒ";
 			break;
 		case 6:
-			cout << "Sword-ìå÷";
+			cout << "Sword-Ð¼ÐµÑ‡";
 			break;
 		case 7:
-			cout << "Book-êíèãà";
+			cout << "Book-ÐºÐ½Ð¸Ð³Ð°";
 			break;
 		case 8:
-			cout << "Forest-ëåñ";
+			cout << "Forest-Ð»ÐµÑ";
 			break;
 		case 9:
-			cout << "Fuel-òîïëèâî";
+			cout << "Fuel-Ñ‚Ð¾Ð¿Ð»Ð¸Ð²Ð¾";
 			break;
 		case 10:
-			cout << "Home-äîì";
+			cout << "Home-Ð´Ð¾Ð¼";
 			break;
 		case 11:
-			cout << "Window-îêíî";
+			cout << "Window-Ð¾ÐºÐ½Ð¾";
 			break;
 		case 12:
-			cout << "Breathtaking-çàõâàòûâàþùèé";
+			cout << "Breathtaking-Ð·Ð°Ñ…Ð²Ð°Ñ‚Ñ‹Ð²Ð°ÑŽÑ‰Ð¸Ð¹";
 			break;
 		case 13:
-			cout << "Pen-ðó÷êà";
+			cout << "Pen-Ñ€ÑƒÑ‡ÐºÐ°";
 			break;
 		case 14:
-			cout << "Pencil-êàðàíäàø";
+			cout << "Pencil-ÐºÐ°Ñ€Ð°Ð½Ð´Ð°Ñˆ";
 			break;
 		case 15:
-			cout << "River-ðåêà";
+			cout << "River-Ñ€ÐµÐºÐ°";
 			break;
 		default:
-			cout << "Ââåäåí íåïðàâèëüíûé ñèìâîë!";
+			cout << "Ð’Ð²ÐµÐ´ÐµÐ½ Ð½ÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð»!";
 			break;
 		}
 		break;
 
 	case 3:
-		cout << "Íó è íå î÷åíü òî è õîòåëîñü ïåðåâîäèòü";
+		cout << "ÐÑƒ Ð¸ Ð½Ðµ Ð¾Ñ‡ÐµÐ½ÑŒ Ñ‚Ð¾ Ð¸ Ñ…Ð¾Ñ‚ÐµÐ»Ð¾ÑÑŒ Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ð¸Ñ‚ÑŒ";
 		break;
 	default:
-		cout << "Âû ïðîìàçàëè ïî íóæíîé êëàâèøå";
+		cout << "Ð’Ñ‹ Ð¿Ñ€Ð¾Ð¼Ð°Ð·Ð°Ð»Ð¸ Ð¿Ð¾ Ð½ÑƒÐ¶Ð½Ð¾Ð¹ ÐºÐ»Ð°Ð²Ð¸ÑˆÐµ";
 		break;
 	}
 	return 0;
